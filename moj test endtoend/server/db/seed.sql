@@ -1,4 +1,4 @@
-INSERT INTO agents (agent_code, name, area, commision, phone) 
+INSERT INTO agents (agent_code, name, area, commission, phone) 
 VALUES 
 ('A007', 'Ramasundar', 'Bangalore', '0.15', '077-25814763'),
  ('A003', 'Alex ', 'London', '0.13', '075-12458969'),

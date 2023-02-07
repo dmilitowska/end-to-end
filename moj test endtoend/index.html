@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries</title>
-    <link rel = "stylesheet" href="./static/styles.css">
+    <!-- <link rel = "stylesheet" href="./static/styles.css"> -->
     <script src = "./static/index.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
@@ -17,5 +17,31 @@
     </form>
     <div id = "area-info"></div>
     <div id = "commission"></div>
+    <section class="auth">
+        <h2>Register for Agents</h2>
+        <form id="auth-form-register">
+            <label for="username-input-register">Username:</label>
+            <input type="text" id="username-input-register" placeholder="Username"><br>
+            <label for="password-input-register">Password:</label>
+            <input type="password" id="password-input-register" placeholder="Password"><br>
+            <input type="submit" value="Register" id="submit-register">
+        </form>
+        
+    </section>
+
+    <section class="auth">
+        <h2>Log in for Agents</h2>
+        <form id="auth-form-login">
+          <label for="username-input-login">Username:</label>
+          <input type="text" id="username-input-login" placeholder="Username"><br>
+          <label for="password-input-login">Passowrd</label>
+          <input type="password" id="password-input-login" placeholder="Password"><br>
+          <input type="submit" value="Log in" id="submit-login">
+        </form>
+      </section>
+      <nav>
+        <h2>Log out</h2>
+        <button id ="logout" >Log out</button>
+    </nav>
 </body>
 </html>
